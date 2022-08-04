@@ -77,3 +77,22 @@ body{
     font-weight: lighter;
 }
    
+.main .services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    height: 300px;
+    margin: 0 auto;
+}
+.services h1{
+    font-weight: 300;
+    font-size: 6.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.services p{
+    align-self:flex-end;
+    font-size: 1.8rem;
+    color: rgb(163, 163, 163);
+}
