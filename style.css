@@ -15,8 +15,6 @@ body{
 
 .header{
     color: #fff;
-  
- 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +22,8 @@ body{
     font-size: 1.6rem;
     background-image: url("https://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/d10fd14ad4015f6c9af5da75/pexelsphoto3378044.jpeg");
     background-position: 50% 0;
-   
+    background-repeat: no-repeat;
+   background-size: 100%;
 }
 
 
@@ -129,7 +128,11 @@ body{
     font-size: 2rem;
     margin-top: 10px;
     letter-spacing: 2px;
+    cursor: pointer;
     
+}
+.product-types .products-items li:hover{
+    color: rgb(187, 84, 84);
 }
 .product-types{
     align-self:flex-start;
@@ -159,4 +162,74 @@ body{
     position: absolute;
     bottom: 80px;
     left: -200px;
+}
+.feature{
+    width: 85vw;
+}
+.features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 140px;
+    margin-top: 150px;
+    height: 75vh;
+
+}
+.title-feature{
+    margin-left: 30px;
+    text-align: center;
+    width: 40%;
+}
+.title-feature h2{
+    font-weight: lighter;
+    font-size: 5.2rem;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.title-feature p{
+    font-size: 2rem;
+    color: rgb(163, 163, 163);
+    margin-top: 30px;
+}
+.feature{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+   
+}
+.feature h3{
+    font-weight: lighter;
+    font-size: 2.4rem;
+    text-align: left;
+    line-height: 1;
+}
+.feature img{
+    align-self: flex-start;
+    margin-bottom: 20px;
+    height: 75px;
+    width: 75px;
+}
+.feature p{
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: left;
+    color: rgb(163, 163, 163);
+}
+.features a{
+    font-size: 2.2rem;
+    line-height: 1;
+    color: black;
+    text-decoration: underline 3px;
+    letter-spacing: 2px;
+    position: relative;
+    top: -150px;
+    left: 180px;
+}
+.features a:link{
+    color: black;
 }
